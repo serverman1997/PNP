@@ -1,40 +1,40 @@
 [
   {
     "EventID": 0,
-    "EventTitle": "SGNW Townhall Meeting: A townhall meeting to discuss Constituency  Leadership and Representation and future Developments in the Constituency.",
-    "EventDate": "April 7th 2025",
-    "EventTime": "7PM to May 21st 2025 - 7pm",
-    "EventVenue": "Grenada",
-    "EventDesc": "Local Community Meetings that stimulates the creativity and innovative thought process ...",
-    "EventLargeDesc": "Local Community Meetings that stimulates the creativity and innovative thought process of local residents, as we build and plan together for the unique representation of all Communities within SGNW.",
+    "EventTitle": "SGNW Townhall Meeting: Meet the political leader of the People's National Party (PNP) and the PNP's caretaker for the Constituency of St. George North West. Constituency representation, future projects and programs, and other topics for discussion. ",
+    "EventDate": "May 26th, 2025 ",
+    "EventTime": "7PM",
+    "EventVenue": "Happy Hill Secondary School",
+    "EventDesc": "Our Townhall Style meetings will foster transparency and trust by enabling community ...",
+    "EventLargeDesc": "Our Townhall Style meetings will foster transparency and trust by enabling community members to hear directly from leaders or decision-makers. They also lessen misinformation and rumors, helping to build trust through open dialogue. <br><br> It fosters civic engagement, establishes an educational platform so residents feel heard and valued, and ultimately inspires them to participate in local initiatives.",
     "EventLink": "./singleeventdetail.html?id=0",
     "EventImage": "images/event-1.jpg",
-    "EventMap":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d499050.57168136345!2d-61.91997510584888!3d12.259605742413575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c381789f4877bd1%3A0x36d8c7015a1f4f8e!2sGrenada!5e0!3m2!1sen!2sin!4v1740683130462!5m2!1sen!2sin"
+    "EventMap":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.304247159692!2d-61.7543022!3d12.0913118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c3823b174102d03%3A0xd4ad10bdecf2f5e8!2sHappy%20Hill%20Secondary%20School!5e0!3m2!1sen!2sin!4v1746534718984!5m2!1sen!2sin"
   },
   {
     "EventID": 1,
-    "EventTitle": "SGNW Annual Beach Fest: A Constituency Wide Event that pulls all communities within SGNW together in a day of fun, games and attractive prizes.",
-    "EventDate": "April 27th 2025",
-    "EventTime": "3PM to May 25th 2025 - 3pm",
-    "EventVenue": "Fontenoy Beach",
-    "EventDesc": "Local Community Meetings that stimulates the creativity and innovative thought process ...",
-    "EventLargeDesc": "Local Community Meetings that stimulates the creativity and innovative thought process of local residents, as we build and plan together for the unique representation of all Communities within SGNW.",
-    "EventLink": "./singleeventdetail.html?id=1",
-    "EventImage": "images/event-2.jpg",
-    "EventMap":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.620123147114!2d-61.75386572576699!3d12.069637388168953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c3823d3bc9af541%3A0x3e113294799b579e!2sFontenoy%2C%20Grenada!5e0!3m2!1sen!2sin!4v1740735811104!5m2!1sen!2sin"
-
-  },
-  {
-    "EventID": 2,
     "EventTitle": "Volunteer Work at Schools and Communities",
     "EventDate": "May 2025",
     "EventTime": " 9AM - 1PM",
     "EventVenue": "Various schools and communities",
-    "EventDesc": "Local Community Meetings that stimulates the creativity and innovative thought process ...",
-    "EventLargeDesc": "Local Community Meetings that stimulates the creativity and innovative thought process of local residents, as we build and plan together for the unique representation of all Communities within SGNW.",
-    "EventLink": "./singleeventdetail.html?id=2",
+    "EventDesc": "Volunteering at schools plays a vital role in building stronger, more supportive learning communities. When parents, professionals, or community members give their time, students benefit from extra guidance, encouragement, and mentorship. Volunteers enhance classroom learning, support school events ...",
+    "EventLargeDesc": "Volunteering at schools plays a vital role in building stronger, more supportive learning communities. When parents, professionals, or community members give their time, students benefit from extra guidance, encouragement, and mentorship. Volunteers enhance classroom learning, support school events, and create a bridge between families and educators. Their presence fosters a sense of belonging, improves student outcomes, and cultivates a culture of care and collaboration. As volunteers, in return, we gain fulfillment, new skills, and a deeper connection to the future of our community, its children.",
+    "EventLink": "./singleeventdetail.html?id=1",
     "EventImage": "images/event-3.jpg",
     "EventMap":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d499050.57168136345!2d-61.91997510584888!3d12.259605742413575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c381789f4877bd1%3A0x36d8c7015a1f4f8e!2sGrenada!5e0!3m2!1sen!2sin!4v1740683130462!5m2!1sen!2sin"
+  },
+  {
+    "EventID": 2,
+    "EventTitle": "SGNW Community Bash: A Constituency Wide Event that pulls all communities within SGNW together for a day of fun, games, and attractive prizes.",
+    "EventDate": " June 2025 ",
+    "EventTime": "3PM",
+    "EventVenue": "Fontenoy Beach",
+    "EventDesc": "As we continue to build social connection and belonging and strengthen our community identity and pride ...",
+    "EventLargeDesc": "As we continue to build social connection and belonging and strengthen our community identity and pride, these gatherings provide a constituency experience unlike any other. It engages constituents of all ages, as we share a common unity that binds us all together in a partnership of hope.",
+    "EventLink": "./singleeventdetail.html?id=2",
+    "EventImage": "images/event-2.jpg",
+    "EventMap":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.620123147114!2d-61.75386572576699!3d12.069637388168953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c3823d3bc9af541%3A0x3e113294799b579e!2sFontenoy%2C%20Grenada!5e0!3m2!1sen!2sin!4v1740735811104!5m2!1sen!2sin"
+
   },
   {
     "EventID": 3,
@@ -55,8 +55,8 @@
     "EventDate": "July 26th 2025",
     "EventTime": "11AM - 6PM",
     "EventVenue": "Grand Mal Playing Field",
-    "EventDesc": "Local Community Meetings that stimulates the creativity and innovative thought process ...",
-    "EventLargeDesc": "Local Community Meetings that stimulates the creativity and innovative thought process of local residents, as we build and plan together for the unique representation of all Communities within SGNW.",
+    "EventDesc": "The Back-to-School Bag and Book Distribution Initiative provides essential school supplies to children in need, ensuring they start the academic year prepared and confident.  ...",
+    "EventLargeDesc": "The Back-to-School Bag and Book Distribution Initiative provides essential school supplies to children in need, ensuring they start the academic year prepared and confident. By equipping students with the tools to succeed, this initiative reduces financial pressure on our families in the constituency, promotes educational equality, and boosts school readiness. Beyond the classroom, it fosters community spirit, encourages volunteerism, and demonstrates a collective commitment to youth development and lifelong learning. Its impact is both immediate and long-term—empowering students, supporting parents, and strengthening the foundation of the entire community.",
     "EventLink": "./singleeventdetail.html?id=4",
     "EventImage": "images/event-5.jpg",
     "EventMap":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.5289681758413!2d-61.755673925766914!3d12.075896088163187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c3823cdd5481493%3A0x8284d97e54610127!2sGrand%20Mal%20Playing%20Field!5e0!3m2!1sen!2sin!4v1740735932439!5m2!1sen!2sin"
@@ -67,9 +67,9 @@
     "EventTitle": "A Constituency Youth Forum on Back to School Preparedness. A Youth Forum that engages students across the Constituency on the Principles of Back to School Preparedness and its correlation to Academic Success.",
     "EventDate": "August 31st 2025",
     "EventTime": "10AM",
-    "EventVenue": "Grenada",
-    "EventDesc": "Local Community Meetings that stimulates the creativity and innovative thought process ...",
-    "EventLargeDesc": "Local Community Meetings that stimulates the creativity and innovative thought process of local residents, as we build and plan together for the unique representation of all Communities within SGNW.",
+    "EventVenue": "Constituency venue to be announced",
+    "EventDesc": "The Constituency Youth Forum on Back-to-School Preparedness serves as a powerful platform to engage students in meaningful dialogue about the habits, mindset, and resources necessary for a successful academic year ...",
+    "EventLargeDesc": "The Constituency Youth Forum on Back-to-School Preparedness serves as a powerful platform to engage students in meaningful dialogue about the habits, mindset, and resources necessary for a successful academic year. By focusing on the principles of preparation, such as goal setting, time management, mental readiness, and proper support, the forum empowers young people to take ownership of their education. Its impact extends beyond information-sharing: it builds confidence, fosters peer motivation, and promotes a culture of academic excellence across the constituency. This initiative not only prepares students for school but also reinforces the vital link between readiness and long-term academic success.",
     "EventLink": "./singleeventdetail.html?id=5",
     "EventImage": "images/event-6.jpg",
     "EventMap":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d499050.57168136345!2d-61.91997510584888!3d12.259605742413575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c381789f4877bd1%3A0x36d8c7015a1f4f8e!2sGrenada!5e0!3m2!1sen!2sin!4v1740683130462!5m2!1sen!2sin"
@@ -119,7 +119,7 @@
     "EventTitle": "Community Meeting - Beausejour",
     "EventDate": "October 6th 2025",
     "EventTime": "7PM",
-    "EventVenue": "Beasejour",
+    "EventVenue": "Beausejour",
     "EventDesc": "Local Community Meetings that stimulate creativity and innovative thought...",
     "EventLargeDesc": "Local Community Meetings that stimulate creativity and innovative thought process of local residents, as we build and plan together for the unique representation of all Communities within SGNW.",
     "EventLink": "./singleeventdetail.html?id=9",
@@ -204,9 +204,9 @@
     "EventDate": "December 13th 2025",
     "EventTime": "7PM",
     "EventVenue": "Grenada",
-    "EventDesc": "Local Community Meetings that stimulates the creativity and innovative thought process ...",
-    "EventLargeDesc": "Local Community Meetings that stimulates the creativity and innovative thought process of local residents, as we build and plan together for the unique representation of all Communities within SGNW.",
-    "EventLink": "./singleeventdetail.html?id=8",
+    "EventDesc": "The SGNW Christmas Spectacular 2.0 Reloaded is more than a festive celebration—it’s a vibrant expression of community unity, joy, and cultural pride. By bringing families and residents ...",
+    "EventLargeDesc": "The SGNW Christmas Spectacular 2.0 Reloaded is more than a festive celebration—it’s a vibrant expression of community unity, joy, and cultural pride. By bringing families and residents together through music, entertainment, and holiday cheer, the event fosters a sense of togetherness and belonging. It uplifts spirits, creates cherished memories, and strengthens social bonds across the constituency. Beyond celebration, it reflects a commitment to community wellness, inclusion, and shared tradition during the holiday season.",
+    "EventLink": "./singleeventdetail.html?id=16",
     "EventImage": "images/event-9.jpg",
     "EventMap":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d499050.57168136345!2d-61.91997510584888!3d12.259605742413575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c381789f4877bd1%3A0x36d8c7015a1f4f8e!2sGrenada!5e0!3m2!1sen!2sin!4v1740683130462!5m2!1sen!2sin"
   }
