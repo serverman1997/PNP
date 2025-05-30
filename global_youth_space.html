@@ -41,98 +41,175 @@
       border-radius: 15px;
       transition: all 0.3s ease;
     }
-    
+
     .youth-card:hover {
       transform: translateY(-10px);
       box-shadow: 0 15px 35px rgba(255, 121, 0, 0.3);
     }
-    
+
     .pulse-icon {
       animation: pulse 2s infinite;
     }
-    
+
     @keyframes pulse {
-      0% { transform: scale(1); }
-      50% { transform: scale(1.1); }
-      100% { transform: scale(1); }
+      0% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.1);
+      }
+
+      100% {
+        transform: scale(1);
+      }
     }
-    
+
     .gradient-text {
       background: linear-gradient(135deg, #ff7900, #e0b60d);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
+
+    .spotify-btn {
+      background: linear-gradient(135deg, #1DB954, #1ed760);
+      border: none;
+      border-radius: 25px;
+      color: white;
+      padding: 12px 25px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      box-shadow: 0 4px 15px rgba(29, 185, 84, 0.3);
+    }
+
+    .spotify-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(29, 185, 84, 0.4);
+      color: white;
+      text-decoration: none;
+    }
+
+    .spotify-icon {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+    }
+
+    .podcast-section {
+      background: linear-gradient(135deg, rgba(255, 121, 0, 0.1), rgba(224, 182, 13, 0.1));
+      border-radius: 20px;
+      padding: 30px;
+      /* margin: 20px 0; */
+      border: 2px solid rgba(255, 121, 0, 0.2);
+    }
   </style>
 </head>
 
 <body>
 
-  
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light scrolled awake" style="background:#0E6338" >
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light scrolled awake" style="background:#0E6338">
     <div class="container d-flex justify-content-end">
       <a href="./global_youth_space.html" class="btn btn-success text-white">Global Youth Ambassador</a>
       <a href="./national_executive.html" class="btn btn-danger text-white">National Executive</a>
       <a href="https://tally.so/r/wkkQx6" class="btn btn-warning text-white">Volunteer</a>
       <a href="#" class="btn btn-success text-white">Donation</a>
 
-        <a href="https://calendly.com/pnpgrenada-info/30min?primary_color=ff7900&month=2025-03" class="btn btn-danger text-white mr-2">Schedule A Meeting</a>
+      <a href="https://calendly.com/pnpgrenada-info/30min?primary_color=ff7900&month=2025-03"
+        class="btn btn-danger text-white mr-2">Schedule A Meeting</a>
     </div>
-</nav>
+  </nav>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light scrolled awake mt-5" id="ftco-navbar">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light scrolled awake mt-5" id="ftco-navbar">
     <div class="container">
-        <img src="./images/PNPLogo.png" alt="PNP Logo" height="110" width="240">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-            aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="oi oi-menu"></span> Menu
-        </button>
-        <div class="collapse navbar-collapse" id="ftco-nav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item" style="background:#ffc107"><a href="index.html" class="nav-link">Home</a></li>
-                <li class="nav-item" style="background:#f90807;"><a href="constituency.html" class="nav-link">Constituency</a></li>
-                <li class="nav-item" style="background:#1e7e34"><a href="about.html" class="nav-link">Core Team</a></li>
-                <li class="nav-item active" style="background:#ff7900"><a href="youth.html" class="nav-link">Youth Space</a></li>
-                <li class="nav-item" style="background:#ffc107"><a href="https://tally.so/r/wkkQx6" class="nav-link">Join Us</a></li>
-                <li class="nav-item" style="background:#f90807;"><a href="gallery.html" class="nav-link">Gallery</a></li>
-                <li class="nav-item" style="background:#1e7e34"><a href="event.html" class="nav-link">Events</a></li>
-                <li class="nav-item" style="background:#ffc107"><a href="contact.html" class="nav-link">Contact</a></li>
-            </ul>
-        </div>
+      <img src="./images/PNPLogo.png" alt="PNP Logo" height="110" width="240">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item" style="background:#ffc107"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item" style="background:#f90807;"><a href="constituency.html" class="nav-link">Constituency</a>
+          </li>
+          <li class="nav-item" style="background:#1e7e34"><a href="about.html" class="nav-link">Core Team</a></li>
+          <li class="nav-item active" style="background:#ff7900"><a href="youth.html" class="nav-link">Youth Space</a>
+          </li>
+          <li class="nav-item" style="background:#ffc107"><a href="https://tally.so/r/wkkQx6" class="nav-link">Join
+              Us</a></li>
+          <li class="nav-item" style="background:#f90807;"><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li class="nav-item" style="background:#1e7e34"><a href="event.html" class="nav-link">Events</a></li>
+          <li class="nav-item" style="background:#ffc107"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
     </div>
-</nav>
+  </nav>
 
 
   <!-- END nav -->
 
- <br><br>
- <br><br>
+  <br><br>
+  <br><br>
 
 
   <section class="ftco-section">
     <div class="container">
       <div class="row d-flex">
-       <div class="col-md-5 d-flex flex-column align-items-center ftco-animate">
-  <img src="./images/team/Ambassador Chae St. Louis.jpeg" alt="Ambassador Chae St. Louis"
-       height="510" style="width:100%; box-shadow: 0 4px 44px #845f07; object-fit: cover;">
-       <br>
-  <h4><i>Ambassador Chae St. Louis</i></h4>
-</div>
+        <div class="col-md-5 d-flex flex-column align-items-center ftco-animate">
+          <img src="./images/team/Ambassador Chae St. Louis.jpeg" alt="Ambassador Chae St. Louis" height="510"
+            style="width:100%; box-shadow: 0 4px 44px #845f07; object-fit: cover;">
+          <br>
+          <h4><i>Ambassador Chae St. Louis</i></h4>
+        </div>
 
         <div class="col-md-7 pl-md-5 ftco-animate">
-          <br>
+          <center>
+            <h3 style="color: #ff7900;">Voices Without Borders. Youth Without Limits.</h3>
+          </center>
+
           <h2 class="mb-4">🔹 Welcome to the Global Youth Space</h2>
-          <p>This is a space created by youth, for youth — where Grenadian young people at home and abroad, 
-            and youth allies from around the world, come together to share stories, exchange ideas, and inspire each other.</p>
+          <p>This is a space created by youth, for youth — where Grenadian young people at home and abroad,
+            and youth allies from around the world, come together to share stories, exchange ideas, and inspire each
+            other.</p>
           <p>Whether you're in St. George's or New York, Carriacou or London — this page belongs to you.</p>
           <h3 class="mt-4 mb-3" style="color: #ff7900;">🎙️ Live Conversations | Real Stories | Global Voices</h3>
-          <p><strong>💬 What Makes This Space Different?</strong> <br><i>Voices Without Borders. Youth Without Limits.</i></p>
-          
-          <p>This isn't a program. This is a platform for engagement, a canvas for your voice, and a stage for your creativity.</p>
+          <p><strong>💬 What Makes This Space Different?</strong> <br><i>Voices Without Borders. Youth Without
+              Limits.</i></p>
+
+          <p>This isn't a program. This is a platform for engagement, a canvas for your voice, and a stage for your
+            creativity.</p>
           <p>Here, we talk politics and poetry. Music and movement. Justice and joy. Culture and change.</p>
 
-         
+          <!-- New Podcast Section with Spotify Button -->
+
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <div class="col-md-12">
+          <div class="podcast-section mt-4">
+            <h4 style="color: #0E6338; margin-bottom: 15px;">🎧 Listen to Our Youth Podcast</h4>
+            <p class="mb-3">Catch our latest episodes featuring young Grenadian voices, inspiring conversations, and
+              powerful stories from youth around the world.</p>
+            <div class="text-center">
+              <a href="https://open.spotify.com/show/4eND3OROTgZV4QVqRey1tg?si=uJFHcJGJRouoD4kBFrEQpQ&nd=1&dlsi=05272c3e017c44eb"
+                class="spotify-btn" onclick="window.open(this.href, '_blank'); return false;">
+                <svg class="spotify-icon" viewBox="0 0 24 24">
+                  <path
+                    d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.42 1.56-.299.421-1.02.599-1.559.3z" />
+                </svg>
+                Listen on Spotify
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -141,7 +218,7 @@
 
 
 
-  <section class="ftco-section bg-light">
+  <section class="ftco-section bg-light" style="padding: 4em 0 !important;">
     <div class="container team-section text-center">
       <h2 class="mb-5">What You Can Do Here:</h2>
       <div class="row">
@@ -151,7 +228,8 @@
             <div class="card-body p-4">
               <div class="pulse-icon mb-3" style="font-size: 3rem;">✅</div>
               <h5 class="card-title">Share Your Voice</h5>
-              <p class="card-text">upload a short video, or drop a creative piece about your journey, your dreams, or your challenges.</p>
+              <p class="card-text">upload a short video, or drop a creative piece about your journey, your dreams, or
+                your challenges.</p>
             </div>
           </div>
         </div>
@@ -161,7 +239,8 @@
             <div class="card-body p-4">
               <div class="pulse-icon mb-3" style="font-size: 3rem;">🎙️</div>
               <h5 class="card-title">Join the Conversation</h5>
-              <p class="card-text">Tune into our Live Youth Podcast Series featuring bold talks with young leaders, artists, activists, and thinkers.</p>
+              <p class="card-text">Tune into our Live Youth Podcast Series featuring bold talks with young leaders,
+                artists, activists, and thinkers.</p>
             </div>
           </div>
         </div>
@@ -171,7 +250,8 @@
             <div class="card-body p-4">
               <div class="pulse-icon mb-3" style="font-size: 3rem;">🌍</div>
               <h5 class="card-title">Connect & Collaborate</h5>
-              <p class="card-text">Find others working on similar causes across countries. Build networks. Start global friendships.</p>
+              <p class="card-text">Find others working on similar causes across countries. Build networks. Start global
+                friendships.</p>
             </div>
           </div>
         </div>
@@ -181,7 +261,8 @@
             <div class="card-body p-4">
               <div class="pulse-icon mb-3" style="font-size: 3rem;">⭐</div>
               <h5 class="card-title">Celebrate Grenadian Youth Abroad</h5>
-              <p class="card-text">Spotlight features on young Grenadians doing amazing things regionally and internationally.</p>
+              <p class="card-text">Spotlight features on young Grenadians doing amazing things regionally and
+                internationally.</p>
             </div>
           </div>
         </div>
@@ -189,7 +270,7 @@
     </div>
   </section>
 
-  
+
 
   <!-- Call to Action Section -->
   <section class="ftco-section bg-light" style="padding-top: 0px;">
@@ -197,19 +278,22 @@
       <div class="row">
         <div class="col-md-12">
           <h2 class="mb-4" style="color: #0E6338; font-size: 2.5rem;">🔔 Want to be featured?</h2>
-          <p class="lead mb-4">📩 Submit a short video or voice note — tell us who you are, where you are, and what matters most to you.</p>
-          
+          <p class="lead mb-4">📩 Submit a short video or voice note — tell us who you are, where you are, and what
+            matters most to you.</p>
+
           <div class="row justify-content-center">
             <div class="col-md-4 mb-3">
-             
+
             </div>
             <div class="col-md-4 mb-3">
-              <a data-tally-open="m6y7bY" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" class="btn btn-success btn-lg btn-block text-white" style="background: #1e7e34; border: none; padding: 15px;">
+              <a data-tally-open="m6y7bY" data-tally-emoji-text="👋" data-tally-emoji-animation="wave"
+                class="btn btn-success btn-lg btn-block text-white"
+                style="background: #1e7e34; border: none; padding: 15px;">
                 Send Video or Voice Note
               </a>
             </div>
             <div class="col-md-4 mb-3">
-              
+
             </div>
           </div>
         </div>
@@ -218,7 +302,8 @@
   </section>
 
 
-  <footer class="ftco-footer ftco-section img" style="padding-bottom: 0px; background: radial-gradient(circle, #e0b60d, #0c5832, #9c0909) !important;">
+  <footer class="ftco-footer ftco-section img"
+    style="padding-bottom: 0px; background: radial-gradient(circle, #e0b60d, #0c5832, #9c0909) !important;">
     <div class="overlay"></div>
     <div class="container">
       <div class="row mb-5">
@@ -226,7 +311,8 @@
           <div class="ftco-footer-widget mb-4">
             <img src="./images/logoround.png" alt="" srcset="" height="90" width="97" style="margin-top:-16px">
             <br><br>
-            <p>The Global Youth Ambassador by PNP - Empowering Grenadian youth worldwide to connect, share, and inspire change. <a href="#" class="text-primary">Learn More</a></p>
+            <p>The Global Youth Ambassador by PNP - Empowering Grenadian youth worldwide to connect, share, and inspire
+              change. <a href="#" class="text-primary">Learn More</a></p>
 
 
             <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
@@ -314,7 +400,7 @@
         stroke="#F96D00" />
     </svg></div>
 
-<script async src="https://tally.so/widgets/embed.js"></script>
+  <script async src="https://tally.so/widgets/embed.js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>
@@ -333,43 +419,54 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-  
+
   <script>
     // Add interactive voting functionality
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
       const progressBars = document.querySelectorAll('.progress-bar');
       const voteButton = document.querySelector('button[class*="btn-light"]');
-      
+
       if (voteButton) {
-        voteButton.addEventListener('click', function() {
+        voteButton.addEventListener('click', function () {
           progressBars.forEach(bar => {
             const currentWidth = parseInt(bar.style.width);
             const newWidth = Math.min(currentWidth + Math.random() * 10, 100);
             bar.style.width = newWidth + '%';
           });
-          
+
           this.textContent = 'Vote Recorded!';
           setTimeout(() => {
             this.textContent = 'Cast Your Vote';
           }, 2000);
         });
       }
-      
+
       // Add hover effects to quick links
       const quickLinks = document.querySelectorAll('.list-group-item');
       quickLinks.forEach(link => {
-        link.addEventListener('mouseenter', function() {
+        link.addEventListener('mouseenter', function () {
           this.style.transform = 'translateX(10px)';
           this.style.transition = 'all 0.3s ease';
         });
-        
-        link.addEventListener('mouseleave', function() {
+
+        link.addEventListener('mouseleave', function () {
           this.style.transform = 'translateX(0)';
         });
       });
+
+      // Add click tracking for Spotify button
+      const spotifyBtn = document.querySelector('.spotify-btn');
+      if (spotifyBtn) {
+        spotifyBtn.addEventListener('click', function (e) {
+          e.preventDefault();
+          // Add your actual Spotify podcast URL here
+          console.log('Spotify podcast link clicked');
+          // window.open('YOUR_SPOTIFY_PODCAST_URL', '_blank');
+        });
+      }
     });
   </script>
-  
+
   <!--Start of Tawk.to Script-->
   <script type="text/javascript">
     var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
